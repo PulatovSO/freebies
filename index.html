@@ -39,15 +39,15 @@
         <div class="form-item gender">
           <label class="label">Gender</label>
           <div class="radio-wrap">
-            <label for="male">Male</label>
-            <input type="radio" name="gender" id="male">
-            <label for="female">Female</label>
-            <input type="radio" name="gender" id="female">
+            <input class="radio" type="radio" name="gender" id="male-gender" value="male">
+            <label class="male" for="male-gender">Male</label>
+            <input class="radio" type="radio" name="gender" id="female-gender" value="female">
+            <label class="female" for="female-gender">Female</label>
           </div>
         </div>
         <div class="form-item">
           <label class="label" for="birth-date">Date of birth</label>
-          <input class="input" type="date" name="birth-date" id="date" required>
+          <input class="input" type="number" onfocus="(this.type='date')"  name="birth-date" id="date" placeholder="01/02/1983" required>
         </div>
         <div class="form-item">
           <label class="label" for="Email">Email</label>
@@ -63,13 +63,13 @@
         </div>
         <div class="form-item membership">
           <label class="label">Membership</label>
-          <div class="radio-wrap">
+          <div class="radio-wrap membership-wrap">
+            <input class="radio" type="radio" name="membership" id="classic" value="classic">
             <label for="classic">Classic</label>
-            <input type="radio" name="membership" id="classic">
+            <input class="radio" type="radio" name="membership" id="silver" value="silver">
             <label for="silver">Silver</label>
-            <input type="radio" name="membership" id="silver">
+            <input class="radio" type="radio" name="membership" id="gold" value="gold">
             <label for="gold">Gold</label>
-            <input type="radio" name="membership" id="gold">
           </div>
         </div>
         <div class="form-item btn-wrap">

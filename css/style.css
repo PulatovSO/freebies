@@ -32,10 +32,6 @@ body{
   font-weight: 900;
   font-size: 18px;
   line-height: 21px;
-  display: flex;
-  align-items: flex-end;
-  text-align: center;
-  color: #383838;
 }
 
 .paragraph{
@@ -71,7 +67,6 @@ body{
 }
 
 .input{
-  /* width: 190px; */
   width: 60%;
   height: 36px;
   background: #f5f8f94d;
@@ -132,10 +127,55 @@ body{
 
 ::placeholder{
   padding-left: 10px;
+  padding: 8px;
   font-weight: normal;
   font-size: 12px;
   line-height: 9px;
   display: flex;
   align-items: flex-end;
   color: #B1BFCD;
+}
+
+
+.radio{
+  display: none;
+}
+
+.radio-wrap label{
+  padding-left: 30px;
+  margin-right: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.radio-wrap label::before{
+  content: '';
+  width: 26px;
+  height: 26px;
+  top: -9px;
+  left: 0px;
+  background-repeat: no-repeat;
+  background-size: 12px;
+  background-position: center center;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.male::before{
+  background-color:  #F5F8F9;
+  background-image: url(../img/male-gender.svg);
+}
+
+.female::before{
+  background-color:  #F5F8F9;
+  background-image: url(../img/female-gender.svg);
+}
+
+.membership-wrap label::before{
+  background-color: #C7C7C7;
+  background-image: url(../img/membership.svg);
+}
+
+.radio:checked + label::before{
+  background-color:#FFD500;
 }
