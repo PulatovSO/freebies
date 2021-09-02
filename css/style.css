@@ -1,0 +1,141 @@
+
+body{
+  background: #F2F2F2;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+#freebies{
+  height: 100vh;
+}
+
+.freebies-inner{
+  width: 780px;
+  height: 506px;
+  border-radius: 21.25px;
+  background-color: #FFFFFF;
+  box-shadow: rgba(0, 0, 0, 0.21) 0px -1px 24px -2px;
+}
+
+.freebies-text{
+  padding: 80px 53px 60px 53px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #FFD500;
+  border-radius: 21.25px 0px 0px 21.25px;
+}
+
+.title{
+  margin-top: 44px;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: #383838;
+}
+
+.paragraph{
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 14px;
+  color: #383838;
+}
+
+.avatar{
+  width: 118px;
+  height: 118px;
+}
+
+.icon{
+  margin-top: 38px;
+  width: 38px;
+  height: 38px;
+}
+
+.form{
+  padding: 50px 70px;
+  height: 100%;
+}
+
+.form-item{
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input{
+  /* width: 190px; */
+  width: 60%;
+  height: 36px;
+  background: #f5f8f94d;
+  border: 0.586985px solid #CAD7DD;
+  box-sizing: border-box;
+  border-radius: 2.64604px;
+}
+
+.label{
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 9px;
+  display: flex;
+  align-items: flex-end;
+  color: #373D40;
+  width: 30%;
+}
+
+.radio-wrap{
+  width: 60%;
+  display: flex;
+}
+
+.radio-wrap label{
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 9px;
+  display: flex;
+  align-items: flex-end;
+  color: #B1BFCD;
+}
+
+.membership{
+  margin-top: 32px;
+}
+
+.btn-wrap{
+  margin-top: 42px;
+  display: flex;
+  justify-content: center;
+}
+
+.reset{
+  margin-right: 10px;
+  padding: 8px 25px;
+  background: #F5F8F9;
+  border-radius: 2.64604px;
+  color: #373D40;
+  border: none;
+}
+.submit{
+  padding: 8px 25px;
+  background: #60E6C5;
+  border-radius: 2.64604px;  
+  color: #ffffff;
+  border: none;
+}
+
+::placeholder{
+  padding-left: 10px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 9px;
+  display: flex;
+  align-items: flex-end;
+  color: #B1BFCD;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;900&display=swap" rel="stylesheet">
+
+  <!-- styles -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/column.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Freebies</title>
+</head>
+<body>
+  
+  <section id="freebies" class="row center align-center">
+    <div class="freebies-inner row center align-center">
+      <div class="freebies-text col-5">
+        <img class="avatar" src="img/avatar.svg" alt="image">
+        <h2 class="title">Let's get you set up</h2>
+        <p class="paragraph">
+          Itshould only take a couple of <br> 
+          minutes <br>
+          to pair with your watch
+        </p>
+        <img class="icon" src="img/arrow-icon.png" alt="image">
+      </div>
+      <form action="https://echo.htmlacademy.ru/" class="form col-7" method="POST">
+        <div class="form-item">
+          <label class="label" for="name">Name</label>
+          <input class="input" type="text" name="name" id="name" placeholder="Kendall Jenner" required>
+        </div>
+        <div class="form-item gender">
+          <label class="label">Gender</label>
+          <div class="radio-wrap">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female">
+          </div>
+        </div>
+        <div class="form-item">
+          <label class="label" for="birth-date">Date of birth</label>
+          <input class="input" type="date" name="birth-date" id="date" required>
+        </div>
+        <div class="form-item">
+          <label class="label" for="Email">Email</label>
+          <input class="input" type="email" name="Email" id="Email" placeholder="Kendall@email.com" required>
+        </div>
+        <div class="form-item">
+          <label class="label" for="mobile">Mobile</label>
+          <input class="input" type="number" name="mobile" id="mobile" placeholder="+91 98765 43210" required>
+        </div>
+        <div class="form-item">
+          <label class="label" for="id">Customer ID</label>
+          <input class="input" type="number" name="id" id="id" placeholder="576802-ERD0348 45" required>
+        </div>
+        <div class="form-item membership">
+          <label class="label">Membership</label>
+          <div class="radio-wrap">
+            <label for="classic">Classic</label>
+            <input type="radio" name="membership" id="classic">
+            <label for="silver">Silver</label>
+            <input type="radio" name="membership" id="silver">
+            <label for="gold">Gold</label>
+            <input type="radio" name="membership" id="gold">
+          </div>
+        </div>
+        <div class="form-item btn-wrap">
+          <button class="reset" type="reset">Cancel</button>
+          <button class="submit" type="submit">Send</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>
